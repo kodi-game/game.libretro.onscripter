@@ -1,1 +1,1 @@
-onscripter https://github.com/kodi-game/libretro-onscripter/archive/0bbc2dad6d0a4207e12ab8f7f670d7839056fb73.tar.gz
+onscripter https://github.com/kodi-game/libretro-onscripter/archive/a6f00cb73385b8228edfedd08539921c4244a957.tar.gz
