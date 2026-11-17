@@ -1,0 +1,22 @@
+From 9cee155b038bbdec08ff0dbef014f1d757957871 Mon Sep 17 00:00:00 2001
+From: Garrett Brown <themagnificentmrb@gmail.com>
+Date: Mon, 16 Nov 2026 16:40:30 -0800
+Subject: [PATCH] Add CMake install target
+
+---
+ CMakeLists.txt | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 4b3ca6c..195775f 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -201,3 +201,5 @@ elseif (EMSCRIPTEN)
+ elseif (LIBRETRO_STATIC)
+   set_target_properties(onscripter_libretro PROPERTIES SUFFIX "${LIBRETRO_SUFFIX}.a")
+ endif ()
++
++install(TARGETS onscripter_libretro DESTINATION ${CMAKE_INSTALL_LIBDIR})
+-- 
+2.54.0 (Apple Git-157)
+
